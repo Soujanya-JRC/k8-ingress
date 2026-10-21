@@ -41,7 +41,7 @@ metadata:
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS": 443}]'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:315069654700:certificate/c565ac42-ac77-4cb4-beb5-8f915ffaa11a
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:235494794915:certificate/638a5897-af39-47e3-a23e-18f9aabc196e
     alb.ingress.kubernetes.io/group.name: riyacham
   ingressClassName: alb
   rules:
