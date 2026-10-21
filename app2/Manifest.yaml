@@ -43,6 +43,7 @@ metadata:
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS": 443}]'
     alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:235494794915:certificate/638a5897-af39-47e3-a23e-18f9aabc196e
     alb.ingress.kubernetes.io/group.name: riyacham
+spec:
   ingressClassName: alb
   rules:
   - host: "app2.rcham.online"
