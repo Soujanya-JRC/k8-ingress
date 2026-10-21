@@ -5,7 +5,7 @@ metadata:
   name: default-trainee
 rules:
 - apiGroups: [""] # "" indicates the core API group # if empty it will take it as v1
-  resources: ["pods"]
+  resources: ["*"]
   verbs: ["get", "watch", "list"]
 
 ---
